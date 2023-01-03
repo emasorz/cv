@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@200&family=Changa:wght@300&display=swap');
+
+* {
+    font-family: 'Alexandria', sans-serif;
+}
+
+.m-shadow {
+    /*box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+    border: 1px solid #ffffff;
+}
+
+.plr-4 {
+    padding-left: 4.5em !important;
+    padding-right: 4.5em !important;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+.dot {
+    box-sizing: border-box;
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    border: .1rem solid;
+    display: inline-block;
+    margin: .3em;
+}
+
+.dot--empty {
+    background-color: transparent;
+}
+
+.dot--full {
+    background-color: currentColor;
+}
+
+.dot--fill-right {
+    border-right-width: .35rem;
+}
+
+.dot--fill-left {
+    border-left-width: .35rem;
+}
+
+.white {
+    color: white;
+}
+
+p{
+    font-size: 16.3px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.name-center-y{
+    margin-top: 5.7em;
+    margin-bottom: 6em;
+}
+
+.bg-navy{
+   background-color:  #202A44;
+}

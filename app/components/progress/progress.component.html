@@ -1,0 +1,3 @@
+<div class="d-flex align-items-center justify-content-center flex-row">
+    <span *ngFor="let i of [1,2,3,4,5];" class="dot white" [ngClass]="{'dot--full':i-1<getFloorValue(), 'dot--fill-left':isHalf(i)}"></span>
+</div>

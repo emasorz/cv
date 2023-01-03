@@ -1,0 +1,8 @@
+<div class="group mt-4 mb-2">
+    <h4 class="title font-weight-bold">{{title | uppercase}}</h4>
+    <ul *ngIf="items" class="m-0 p-0" style="list-style: none;">
+      <li class="d-flex flex-row w-100 align-items-center w-100" [ngClass]="{'justify-content-between': item.value}" *ngFor="let item of items"><i *ngIf="!item.value" [class]="item.className" style="margin-right: .8em; font-size:24px;"></i>{{item.data}} <app-progress class="align-self-end"  *ngIf="item.value" [value]="item.value"></app-progress>
+      </li>
+    </ul>
+</div>
+ 
